@@ -1,0 +1,9 @@
+g++ -c Tool.cpp
+In file included from Tool.h:3,
+                 from Tool.cpp:1:
+RPSGame.h:6: error: ISO C++ forbids declaration of ‘Tool’ with no type
+RPSGame.h:6: error: expected ‘;’ before ‘*’ token
+RPSGame.h:7: error: ISO C++ forbids declaration of ‘Tool’ with no type
+RPSGame.h:7: error: expected ‘;’ before ‘*’ token
+RPSGame.h:12: error: expected ‘)’ before ‘,’ token
+make: *** [Tool.o] Error 1
